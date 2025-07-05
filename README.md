@@ -1,5 +1,5 @@
 
-# Provide Insights to Chief of Operation of Goodcabs
+# Provide Insights to the Chief of Operations of Goodcabs
 
 ## Brief introduction and situation
 
@@ -11,7 +11,7 @@ As part of this initiative, the Goodcabs management team aims to assess the comp
 
 ## Description of Datasets given by the company
 
-*\*Company has given both sql databases and csv files as data.
+*\*The company has given both SQL databases and CSV files as data.
 This description will give us the idea about the initial structure of the data*
 
 #### **trips_db :** This database contains both detailed and aggregated data on trips, passenger types, and repeat trip behavior for Goodcabs' operations across tier-2 cities. It organizes trip data by city, month, and day type (weekday or weekend), enabling comprehensive analysis of travel patterns, passenger demographics, and repeat usage trends.
@@ -52,7 +52,7 @@ Purpose: This table provides a breakdown of repeat trip behavior, aggregated by 
 
 **5. fact_trips**
 
-Purpose: This table provides detailed information on each individual trip, including trip-specific metrics like distance, fare, and ratings, which can be used for granular trip-level analysis.
+Purpose: This table provides detailed information on each trip, including trip-specific metrics like distance, fare, and ratings, which can be used for granular trip-level analysis.
 
 - trip_id: Unique identifier for each trip.
 - date: The exact date of the trip (formatted as YYYY-MM-DD).
@@ -89,15 +89,15 @@ Purpose: This table provides detailed information on each individual trip, inclu
 - Process the given data and analyze it thoroughly.
 - Give quick answers to the ad hoc requests.
 - Generate insights from after analysing for reporting.
-- Provide few recommendations as solution.
+- Provide a few recommendations as a solution.
 
 ## Methodology used / Workflow
 
 - Sql queries are written to get answers of ad hoc requests from the given sql databases by the company. We have leveraged "Joins", "CTE", "Group By", etc. to write the queries.
-- The generated results are exported as csv files.
-- The exported csv files are imported to Excel to display in proper tabular format and quick reporting. We have leverages "Pivot Charts", "Pivot Tables", "Conditional Formatting", etc. to create this.
-- The comprehensive visualization and analysis has been done using Power BI. We have leveraged "Power Query" to process and clean the data, modeled the data for analysis and used "Measures", "Calculated Columns", "Bookmarks", "Slicers", "Parameters", etc. to generate the report.
-- After the analysis we have documented our analysis, insights and recommendations as ppt to deliver as thefinal result.
+- The generated results are exported as CSV files.
+- The exported CSV files are imported into Excel to display in a proper tabular format for quick reporting. We have leveraged "Pivot Charts", "Pivot Tables", "Conditional Formatting", etc., to create this.
+- The comprehensive visualization and analysis has been done using Power BI. We have leveraged "Power Query" to process and clean the data, modeled the data for analysis, and used "Measures", "Calculated Columns", "Bookmarks", "Slicers", "Parameters", etc. to generate the report.
+- After the analysis, we have documented our analysis, insights, and recommendations as a PDF to deliver as the final result.
 
 ## Files
 
@@ -107,9 +107,9 @@ Purpose: This table provides detailed information on each individual trip, inclu
 (*The sheets are named properly based on the questions for easy understanding.*)
 
 **Goodcabs_Data_Analysis.pbix :** This is the main power bi report where the comprehensive visualization is there.
-(*Contains 3 pages, Dashboard - for overall idea, Passengers - for passenger related visuals and Trips and Revenue - for visuals related to trips and revenue*)
+(*Contains 3 pages, Dashboard - for overall idea, Passengers - for passenger-related visuals, and Trips and Revenue - for visuals related to trips and revenue*)
 
-**Cab_Company_Data_Analysis.pdf :** This is the documentation of analysis, insights and recommendations.
+**Cab_Company_Data_Analysis.pdf :** This is the documentation of analysis, insights, and recommendations.
 
 ## Creator
 
@@ -117,6 +117,6 @@ This project is created by **Avirup Mitra**
 
 **LinkedIn :** www.linkedin.com/in/avirupmitra06
 
-Please feel free to DM for suggestions and improvements or any other queries. Thank you for your time.
+Please feel free to DM for any suggestions and improvements, or any other queries. Thank you for your time.
 
-**This is an overview of the project. Please refer to the main project files for detailed result**
+**This is an overview of the project. Please refer to the main project files for detailed results**
