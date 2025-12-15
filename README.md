@@ -109,7 +109,7 @@ Purpose: This table provides detailed information on each trip, including trip-s
 **Goodcabs_Data_Analysis.pbix :** This is the main power bi report where the comprehensive visualization is there.
 (*Contains 3 pages, Dashboard - for overall idea, Passengers - for passenger-related visuals, and Trips and Revenue - for visuals related to trips and revenue*)
 
-**Cab_Company_Data_Analysis.pdf :** This is the documentation of analysis, insights, and recommendations.
+**Goodcabs_Data_Analysis.pdf :** This is the documentation of analysis, insights, and recommendations.
 
 ## Creator
 
